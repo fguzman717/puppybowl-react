@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+}
+
+.player-form {
+  width: 300px;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: #242424;
+  border-radius: 10px;
+}
+
+.form-fields {
+  margin-bottom: 20px;
+}
+
+.form-fields label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.form-fields input {
+  width: 200px;
+}
+
+.player-card {
+  width: 250px;
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  display: inline-table;
+  padding: 25px;
+  margin: 25px;
+}
+
+.player-name {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.player-breed {
+  font-size: 15px;
+  color: white;
+}
+
+.player-card-button {
+  border: solid;
+  margin: 10px 5px 10px 5px;
+}
+
+a {
+  font-size: 20px;
+  border: solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.welcome {
+  margin: 25px;
+}
+
+body {
+  background-color: #181a1b;
+}
